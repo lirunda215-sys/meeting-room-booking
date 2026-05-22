@@ -1,0 +1,24 @@
+# Maven
+lrdbackend/target/
+
+# Node.js
+lrdfrontend/node_modules/
+lrdfrontend/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 敏感配置（含数据库密码、JWT密钥）
+lrdbackend/src/main/resources/application.properties
+
+# 上传文件目录
+lrd-uploads/
+
+# 日志
+*.log
